@@ -1,216 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Cristhian Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="dist/css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Desc. Cristhian Vázquez</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Inicio</a></li>
-                <li class="sidebar-nav-item"><a href="#about">Acerca de</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Servicios</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portafolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="mb-4">
-                    <img src="dist/assets/img/perfil.jpg" alt="Cristhian Portfolio" class="rounded-circle img-perfil profile-img">
-                </div>
-                <h1 class="mb-1">Cristhian Vázquez</h1>
-                <h3 class="mb-5"><em>Soy un desarrollador web que le gusta innovar con presentaciones atractivas, mi identifico como una persona responsable y con cualidades que aportan bastante al ámbito laboral</em></h3>
-                <a class="btn btn-primary btn-xl btn-custom" href="#about">Conoce más sobre mí</a>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2 class="section-title">Sobre mí</h2>
-                        <p class="lead mb-5">
-                            Soy un estudiante de la carrera de Análisis de Sistemas y futuro desarrollador web, este último gracias al bootcamp de desarrollo joven, desarrollado en Asunción. 
-                            Normalmente me destaco por mi forma de ser y mi insistencia en resolver cualquier tipo de problemas.
-                        </p>
-                        <a class="btn btn-primary btn-xl btn-custom" href="#services">Mis habilidades</a>
-                    </div>
+<html lang="es">
+
+<head>
+    <title>Mi Primera Página con Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center text-primary">¡Bienvenido a Bootstrap!</h1>
+        <p class="lead text-center">Redimensiona esta página responsiva para ver el efecto.</p>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="p-3 bg-success text-white text-center rounded">
+                    <h3>Columna 1</h3>
+                    <p>Contenido dinámico y atractivo.</p>
                 </div>
             </div>
-        </section>
-        <!-- Habilidades-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h2 class="text-secondary mb-0">Habilidades</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3 icon-zoom"><i class="fab fa-html5"></i></span>
-                        <h4><strong>Html y CSS</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fab fa-python"></i></span>
-                        <h4><strong>Python</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fab fa-js-square"></i></span>
-                        <h4><strong>JavaScript</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fab fa-java"></i></span>
-                        <h4><strong>Java</strong></h4>
-                    </div>
+            <div class="col-sm-4">
+                <div class="p-3 bg-warning text-white text-center rounded">
+                    <h3>Columna 2</h3>
+                    <p>Perfecto para principiantes.</p>
                 </div>
             </div>
-        </section>
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">
-                    ¡Descarga mi CV!</h1>
-                <p class="lead mb-5">!Conoce más sobre mí, mis hablidades, aptitudes y experiencias¡</p>
-                <a class="btn btn-primary btn-xl btn-custom" href="dist/assets/cv/Curriculum Vitae.pdf" download> Descargar CV</a>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portafolio</h3>
-                    <h2 class="mb-5">Proyectos Recientes</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/cris200505/Proyecto-Peliculas">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Catalogo de Peliculas</div>
-                                    <p class="mb-0">Desarrollo de Página web con html, css y JavaScript</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio-1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/cris200505/Tienda_Ropa_POOBootcamp">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Gestion de compra</div>
-                                    <p class="mb-0">Este proyecto lo realicé utilizando python, se encarga de reservar productos.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/cris200505/cv.Cristhian">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Creacción de CV en Página web</div>
-                                    <p class="mb-0">Realíce este proyecto utilizando html y css</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Página de presentación</div>
-                                    <p class="mb-0">LLevé a cabo este proyecto con boostrap, html, css y JavaScript</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
-                    </div>
+            <div class="col-sm-4">
+                <div class="p-3 bg-danger text-white text-center rounded">
+                    <h3>Columna 3</h3>
+                    <p>¡Explora las posibilidades!</p>
                 </div>
             </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="content-section bg-light text-center" id="contact" style="padding: 4rem 0;">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h2 class="text-secondary mb-0">Contacto</h2>
-                    <h3 class="section-title">Ponte en contacto conmigo</h3>
-                </div>
-                <!-- Formulario de contacto -->
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <form id="contactForm">
-                            <div class="form-group mb-3">
-                                <input class="form-control form-control-lg" id="name" type="text" placeholder="Tu Nombre" required />
-                            </div>
-                            <div class="form-group mb-3">
-                                <input class="form-control form-control-lg" id="email" type="email" placeholder="Tu Correo Electrónico" required />
-                            </div>
-                            <div class="form-group mb-3">
-                                <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Tu Mensaje" required></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-primary btn-xl btn-custom" type="submit">Enviar Mensaje</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center" style="background-color: #007bff; padding: 4rem 2rem;">
-            <!-- Logo genérico de la página -->
-            <i class="bi bi-laptop text-white mb-3" style="font-size: 3rem;"></i>
-            <!-- Texto motivacional -->
-            <p class="footer-texto text-center text-white mb-4" style="font-size: 1.25rem;">
-                Me gusta aprender y me gusta crear.<br>Creemos un proyecto juntos.
-            </p>
-        
-            <!-- Iconos de redes sociales -->
-            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center mb-4">
-                <div class="container px-4 px-lg-5">
-                    <ul class="list-inline mb-5">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/share/2MK5ZFXq8BmU6ZLP/" class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook" style="font-size: 2rem;"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/cristhian-v%C3%A1zquez-4641122b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-linkedin" style="font-size: 2rem;"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/cris200505" class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github" style="font-size: 2rem;"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/cristhianvazqz_/profilecard/?igsh=enFsanl1cjBqcm55" class="social-link rounded-circle text-white" href="#!"><i class="icon-social-instagram" style="font-size: 2rem;"></i></a>
-                        </li>
-                    </ul>
-        
-            <!-- Derechos de autor -->
-            <div class="derechos-de-autor text-white small">
-                Creado por Cristhian Vázquez(2024) &#169;
-            </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="dist/js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+
+</body>
+
 </html>
+
